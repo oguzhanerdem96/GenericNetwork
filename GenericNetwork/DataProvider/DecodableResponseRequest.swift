@@ -12,7 +12,7 @@ public protocol DecodableResponseRequest: RequestProtocol {
 
 public protocol RequestProtocol {
     var path: String { get }
-    var method: String { get }
+    var method: RequestMethod { get }
     var parameters: RequestParameters { get }
     var header: RequestHeaders { get }
     var encoding: RequestEncoding { get }
@@ -44,5 +44,5 @@ public protocol RequestProtocol {
     
 public enum RequestEncoding {
     case url
-    case json 
+    case json
 }

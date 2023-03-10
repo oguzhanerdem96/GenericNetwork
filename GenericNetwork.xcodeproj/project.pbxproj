@@ -17,6 +17,7 @@
 		66ABD05529BB79EB005B1473 /* GetPostsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABD05429BB79EB005B1473 /* GetPostsRequest.swift */; };
 		66ABD05829BB7A28005B1473 /* APIDecodableResponseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABD05729BB7A28005B1473 /* APIDecodableResponseRequest.swift */; };
 		66ABD05A29BB7AC8005B1473 /* DecodableResponseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABD05929BB7AC8005B1473 /* DecodableResponseRequest.swift */; };
+		66ABD05C29BB7FFC005B1473 /* AddPostsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABD05B29BB7FFC005B1473 /* AddPostsRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		66ABD05429BB79EB005B1473 /* GetPostsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPostsRequest.swift; sourceTree = "<group>"; };
 		66ABD05729BB7A28005B1473 /* APIDecodableResponseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDecodableResponseRequest.swift; sourceTree = "<group>"; };
 		66ABD05929BB7AC8005B1473 /* DecodableResponseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableResponseRequest.swift; sourceTree = "<group>"; };
+		66ABD05B29BB7FFC005B1473 /* AddPostsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostsRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				66ABD05429BB79EB005B1473 /* GetPostsRequest.swift */,
+				66ABD05B29BB7FFC005B1473 /* AddPostsRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				66ABD05229BB79C2005B1473 /* PostsResponseModel.swift in Sources */,
 				66ABD05829BB7A28005B1473 /* APIDecodableResponseRequest.swift in Sources */,
 				66ABD05529BB79EB005B1473 /* GetPostsRequest.swift in Sources */,
+				66ABD05C29BB7FFC005B1473 /* AddPostsRequest.swift in Sources */,
 				66ABD04129BB7991005B1473 /* ViewController.swift in Sources */,
 				66ABD03D29BB7991005B1473 /* AppDelegate.swift in Sources */,
 				66ABD03F29BB7991005B1473 /* SceneDelegate.swift in Sources */,

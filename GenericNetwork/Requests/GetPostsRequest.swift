@@ -7,4 +7,15 @@
 
 import Foundation
 
-public struct GetPostsRequest:
+public struct GetPostsRequest: APIDecodableResponseRequest {
+   
+    
+    public typealias ResponseType = [PostsResponseModel]?
+    
+    public var path: String = "posts"
+    public var method: RequestMethod = .get
+    
+    public init() {
+        self.path = "posts"
+    }
+}
